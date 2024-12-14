@@ -1,10 +1,11 @@
 #to run this app on localost, on terminal run : streamlit run "path_to_interpreterStreamlit.py_file"
 
-import streamlit as st
+import streamlit as st 
 import mediapipe as mp
 import cv2
 import numpy as np
 import pickle
+import pandas as pd
 
 label_encoder_path = "C:/Users/KIIT/Kodessa/Untitled Folder/label_encoder_final.pickle"
 model_path = "C:/Users/KIIT/Kodessa/Untitled Folder/signLangModel_final.pickle"
